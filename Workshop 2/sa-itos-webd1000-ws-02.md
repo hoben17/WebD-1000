@@ -1,14 +1,15 @@
 # WEBD 1000 — Website Development
+
 ## Workshop 02 — Website Planning, Information Architecture & Wireframing
 
-**Instructor:** Davis Boudreau  
-**Term:** Fall 2026  
-**Workshop Weight:** 3%  
-**Type:** Self-Guided Practical Workshop  
-**Estimated Duration:** 3–4 hours  
-**Primary Learning Outcome:** LO2 — Plan and design websites based on project requirements  
-**Supporting Learning Outcome:** LO1 — Evaluate websites for usability and accessibility  
-**Required Tools:** Figma Design, web browser, Brightspace  
+**Instructor:** Davis Boudreau
+**Term:** Fall 2026
+**Workshop Weight:** 3%
+**Type:** Self-Guided Practical Workshop
+**Estimated Duration:** 3–4 hours
+**Primary Learning Outcome:** LO2 — Plan and design websites based on project requirements
+**Supporting Learning Outcome:** LO1 — Evaluate websites for usability and accessibility
+**Required Tools:** Figma Design, web browser, Brightspace
 **Instructor Sharing Email:** davis.boudreau@nscc.ca
 
 ---
@@ -141,15 +142,15 @@ Organizing design work makes it easier to locate information, receive feedback, 
 
 Figma uses several important organizational elements:
 
-| Element | Purpose |
-|---|---|
-| Design File | Stores your entire project |
-| Page | Organizes sections within the file |
-| Frame | Contains a diagram, worksheet, or screen design |
-| Shape | Represents a visual or interface element |
-| Text | Provides content and labels |
-| Layers | Organize design objects |
-| Comments | Support collaboration and feedback |
+| Element     | Purpose                                         |
+| ----------- | ----------------------------------------------- |
+| Design File | Stores your entire project                      |
+| Page        | Organizes sections within the file              |
+| Frame       | Contains a diagram, worksheet, or screen design |
+| Shape       | Represents a visual or interface element        |
+| Text        | Provides content and labels                     |
+| Layers      | Organize design objects                         |
+| Comments    | Support collaboration and feedback              |
 
 **Important:** A Figma page is not the same thing as a webpage in your future HTML website.
 
@@ -166,14 +167,14 @@ Figma uses several important organizational elements:
 
 Create these six pages:
 
-| Page | Name |
-|---|---|
-| 01 | Project Brief |
-| 02 | Content Inventory |
-| 03 | Sitemap |
-| 04 | Navigation |
-| 05 | Wireframes |
-| 06 | Worksheet & Reflection |
+| Page | Name                   |
+| ---- | ---------------------- |
+| 01   | Project Brief          |
+| 02   | Content Inventory      |
+| 03   | Sitemap                |
+| 04   | Navigation             |
+| 05   | Wireframes             |
+| 06   | Worksheet & Reflection |
 
 ### Task A3 — Create Your Workshop Worksheet
 
@@ -233,16 +234,16 @@ Possible examples include a community organization, local attraction, educationa
 
 On Page 01, create a frame containing:
 
-| Planning Question | Your Response |
-|---|---|
-| Website title | |
-| Website topic | |
-| Website purpose | |
-| Target audience | |
-| Primary user goal | |
-| Secondary user goals | |
-| Important information | |
-| Desired visitor action | |
+| Planning Question      | Your Response                                                                      |
+| ---------------------- | ---------------------------------------------------------------------------------- |
+| Website title          | The Daisy Project                                                                  |
+| Website topic          |                                                                                    |
+| Website purpose        | Raise awarness about the program and make it easy for users to navigate within it  |
+| Target audience        | the community                                                                      |
+| Primary user goal      | make it so the users can navigate through tools and donate from an amazon wishlist |
+| Secondary user goals   |                                                                                    |
+| Important information  |                                                                                    |
+| Desired visitor action |                                                                                    |
 
 ### Task B3 — Write Three User Goals
 
@@ -286,11 +287,11 @@ A content inventory is a structured list of information required by a website.
 
 For example:
 
-| Content | Purpose | Page | Priority |
-|---|---|---|---|
-| Opening hours | Help users plan a visit | Contact | High |
-| Organization history | Provide background | About | Medium |
-| Upcoming events | Inform visitors | Events | High |
+| Content              | Purpose                 | Page    | Priority |
+| -------------------- | ----------------------- | ------- | -------- |
+| Opening hours        | Help users plan a visit | Contact | High     |
+| Organization history | Provide background      | About   | Medium   |
+| Upcoming events      | Inform visitors         | Events  | High     |
 
 Priority indicates how important the information is to the user's goals.
 
@@ -448,11 +449,11 @@ Include:
 ### Task E2 — Create a Navigation Destination Table
 
 | Navigation Label | Planned HTML File |
-|---|---|
-| Home | index.html |
-| About | about.html |
-| Events | events.html |
-| Contact | contact.html |
+| ---------------- | ----------------- |
+| Home             | index.html        |
+| About            | about.html        |
+| Events           | events.html       |
+| Contact          | contact.html      |
 
 Adjust the labels and filenames to match your project.
 
@@ -638,12 +639,12 @@ Testing a design before implementation can reveal problems that would otherwise 
 
 The CRAP principles provide a useful starting point:
 
-| Principle | Evaluation Question |
-|---|---|
-| Contrast | Is important information visually distinguishable? |
-| Repetition | Are repeated interface elements consistent? |
-| Alignment | Are elements arranged deliberately? |
-| Proximity | Is related information grouped together? |
+| Principle  | Evaluation Question                                |
+| ---------- | -------------------------------------------------- |
+| Contrast   | Is important information visually distinguishable? |
+| Repetition | Are repeated interface elements consistent?        |
+| Alignment  | Are elements arranged deliberately?                |
+| Proximity  | Is related information grouped together?           |
 
 Also consider usability and accessibility:
 
@@ -720,7 +721,6 @@ A shared design file allows your instructor to inspect your planning artifacts, 
 3. Enter:
 
    **davis.boudreau@nscc.ca**
-
 4. Select **Can view** permission.
 5. Send the invitation.
 6. Verify that the instructor appears in the file's access settings.
@@ -768,17 +768,17 @@ Your worksheet must be completed directly in **Figma Page 06 — Worksheet & Ref
 
 Create the following sections:
 
-| Worksheet Section | Required Evidence |
-|---|---|
-| Prior Knowledge | Four initial responses |
-| A — Figma Workspace | Explanation of Figma pages and frames |
-| B — Project Brief | Most important user goal and rationale |
+| Worksheet Section      | Required Evidence                         |
+| ---------------------- | ----------------------------------------- |
+| Prior Knowledge        | Four initial responses                    |
+| A — Figma Workspace   | Explanation of Figma pages and frames     |
+| B — Project Brief     | Most important user goal and rationale    |
 | C — Content Inventory | Missing or unnecessary content identified |
-| D — Sitemap | Important structural decision |
-| E — Navigation | Explanation of consistency |
-| F — Wireframes | Two desktop/mobile differences |
-| G — Design Review | Three improvements and peer feedback |
-| H — Sharing | Figma file link and sharing confirmation |
+| D — Sitemap           | Important structural decision             |
+| E — Navigation        | Explanation of consistency                |
+| F — Wireframes        | Two desktop/mobile differences            |
+| G — Design Review     | Three improvements and peer feedback      |
+| H — Sharing           | Figma file link and sharing confirmation  |
 
 Record your predictions, observations, decisions, and review findings as you work.
 
@@ -836,14 +836,14 @@ All students must share their Figma Design file with **davis.boudreau@nscc.ca** 
 
 ## Required Figma Deliverables
 
-| Figma Page | Deliverable |
-|---|---|
-| 01 — Project Brief | Website purpose, audience, and three user goals |
-| 02 — Content Inventory | At least eight prioritized content items |
-| 03 — Sitemap | Homepage and at least three additional pages |
-| 04 — Navigation | Navigation diagram and destination table |
-| 05 — Wireframes | Desktop homepage, desktop secondary page, mobile homepage, and four annotations |
-| 06 — Worksheet & Reflection | Worksheet responses, peer feedback, three improvements, and seven reflections |
+| Figma Page                   | Deliverable                                                                     |
+| ---------------------------- | ------------------------------------------------------------------------------- |
+| 01 — Project Brief          | Website purpose, audience, and three user goals                                 |
+| 02 — Content Inventory      | At least eight prioritized content items                                        |
+| 03 — Sitemap                | Homepage and at least three additional pages                                    |
+| 04 — Navigation             | Navigation diagram and destination table                                        |
+| 05 — Wireframes             | Desktop homepage, desktop secondary page, mobile homepage, and four annotations |
+| 06 — Worksheet & Reflection | Worksheet responses, peer feedback, three improvements, and seven reflections   |
 
 ### Final Submission Checklist
 
@@ -869,13 +869,13 @@ All students must share their Figma Design file with **davis.boudreau@nscc.ca** 
 
 ## Workshop 02 — 3%
 
-| Criterion | Evaluation Evidence |
-|---|---|
-| **A — Attendance** | Participation in the scheduled workshop or completion of the independent alternative |
-| **P — Participation** | Engagement in discussion, design exploration, and peer review |
-| **T — Task Progress** | Completion of required planning artifacts, sitemap, navigation, and wireframes |
-| **F — Focus & Professional Conduct** | Productive work habits, responsible tool use, and respectful collaboration |
-| **R — Reflection & Exit Evidence** | Completed worksheet, meaningful reflection, documented improvements, and accessible Figma file |
+| Criterion                                   | Evaluation Evidence                                                                            |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **A — Attendance**                   | Participation in the scheduled workshop or completion of the independent alternative           |
+| **P — Participation**                | Engagement in discussion, design exploration, and peer review                                  |
+| **T — Task Progress**                | Completion of required planning artifacts, sitemap, navigation, and wireframes                 |
+| **F — Focus & Professional Conduct** | Productive work habits, responsible tool use, and respectful collaboration                     |
+| **R — Reflection & Exit Evidence**   | Completed worksheet, meaningful reflection, documented improvements, and accessible Figma file |
 
 Assessment emphasizes learning progress, practical engagement, design reasoning, and evidence of completion.
 
@@ -957,12 +957,11 @@ In Workshop 03, you will begin implementing your planned website using semantic 
 
 Your Figma artifacts will guide your development:
 
-| Workshop 02 Artifact | Workshop 03 Application |
-|---|---|
-| Project Brief | Website purpose and content |
-| Content Inventory | Page information and text |
-| Sitemap | HTML page structure |
-| Navigation Plan | Links between pages |
-| Wireframes | Semantic page layout |
-| Design Review | Usability and accessibility decisions |
-
+| Workshop 02 Artifact | Workshop 03 Application               |
+| -------------------- | ------------------------------------- |
+| Project Brief        | Website purpose and content           |
+| Content Inventory    | Page information and text             |
+| Sitemap              | HTML page structure                   |
+| Navigation Plan      | Links between pages                   |
+| Wireframes           | Semantic page layout                  |
+| Design Review        | Usability and accessibility decisions |
