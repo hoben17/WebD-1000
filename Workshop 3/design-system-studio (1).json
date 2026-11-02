@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 2.9,
+  "brandReference": "Project Brand Palette",
+  "clampConfig": {
+    "minWidth": 375,
+    "maxWidth": 1280,
+    "mobileFactor": 0.82
+  },
+  "project": "The Daisy Project",
+  "theme": "light",
+  "sampleMode": "advanced",
+  "method": "mix",
+  "primary": "#004780",
+  "secondary": "#495965",
+  "accent": "#cbdb2a",
+  "brandPalette": [
+    {
+      "id": "white",
+      "name": "White",
+      "hex": "#FFFFFF",
+      "group": "primary"
+    },
+    {
+      "id": "blue",
+      "name": "Deep blue",
+      "hex": "#004780",
+      "group": "primary"
+    },
+    {
+      "id": "dark-grey",
+      "name": "Dark grey",
+      "hex": "#495965",
+      "group": "primary"
+    },
+    {
+      "id": "accent-teal",
+      "name": "Teal",
+      "hex": "#00BADC",
+      "group": "accent"
+    },
+    {
+      "id": "accent-turquoise",
+      "name": "Turquoise",
+      "hex": "#5FC5BF",
+      "group": "accent"
+    },
+    {
+      "id": "accent-orange",
+      "name": "Orange",
+      "hex": "#F37327",
+      "group": "accent"
+    },
+    {
+      "id": "accent-blue",
+      "name": "Blue",
+      "hex": "#2B71B9",
+      "group": "accent"
+    },
+    {
+      "id": "accent-green",
+      "name": "Green",
+      "hex": "#CBDB2A",
+      "group": "accent"
+    },
+    {
+      "id": "accent-fuchsia",
+      "name": "Fuchsia",
+      "hex": "#EF426F",
+      "group": "accent"
+    },
+    {
+      "id": "accent-light-blue",
+      "name": "Light blue",
+      "hex": "#57B7E7",
+      "group": "accent"
+    },
+    {
+      "id": "accent-yellow",
+      "name": "Yellow",
+      "hex": "#FFEF00",
+      "group": "accent"
+    }
+  ],
+  "designProcess": {
+    "goal": "this website is going to exist so that people can visit it to learn about the program and make nominations and donations and get in touch with the organizers",
+    "audience": "this is for people that are interested in nominating people for the room makeover",
+    "scope": "i will need a clear mission statement, and to make something on google forms to make a nomination page",
+    "content": "i have a logo image ready and a hero picture",
+    "constraints": "",
+    "delivery": "",
+    "success": "",
+    "pages": "Home\nAbout\nDesign process\nDesign process > Project brief\nDesign process > Information architecture\nDesign process > Wireframing\nDesign process > Prototyping\nLessons\nLessons > Brief lesson\nLessons > Architecture lesson\nLessons > Wireframe lesson\nLessons > Prototype lesson\nLessons > Colour lesson\nLessons > Typography lesson\nLessons > Structure lesson\nLessons > Layout lesson\nLessons > Components lesson\nLessons > Review lesson\nLayout workshop\nLayout workshop > CSS Grid\nLayout workshop > Flexbox\nLayout workshop > Choosing a layout system\nLayout workshop > Layout comparison\nVisual language\nVisual language > Typography\nVisual language > Colour\nResources\nResources > Resource library\nResources > Getting started\nResources > Review checklist\nResources > Learning from exports\nResources > Practice tip\nContact\nComponents\nComponents > Actions\nComponents > Feedback\nComponents > Progress and controls\nFooter",
+    "layout": "split",
+    "wireframeNotes": "Lead with the main task, group related lessons and keep supporting notes close.",
+    "prototypeTask": "Find a useful lesson and decide what to practise next.",
+    "prototypeNotes": "Ask someone to follow the task without coaching. Record hesitation, missing information and the next change."
+  },
+  "responsiveDesign": {
+    "stack": 768,
+    "wide": 1024,
+    "maxWidth": 1152,
+    "gutter": 16,
+    "wideGutter": 32
+  },
+  "font": "Arial, Helvetica, sans-serif",
+  "fontSettings": {
+    "source": "system",
+    "body": "inter",
+    "heading": "same",
+    "systemHeading": "same",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "base": 16,
+  "ratio": 1.2,
+  "leading": 1.55,
+  "headingLeading": 1.18,
+  "headingTracking": -0.02,
+  "bodyTracking": 0,
+  "spacing": 4,
+  "radius": 12,
+  "buttonDesign": {
+    "variant": "primary",
+    "size": "md",
+    "selectedState": "default",
+    "padX": 16,
+    "padY": 8,
+    "minHeight": 48,
+    "radius": 8,
+    "border": 1,
+    "weight": 600,
+    "focus": "#B86C20",
+    "focusWidth": 3,
+    "motion": 150,
+    "mobileFull": false,
+    "overrides": {},
+    "sources": {
+      "primary": "primary",
+      "secondary": "secondary",
+      "accent": "accent",
+      "outline": "primary",
+      "text": "primary"
+    },
+    "custom": {}
+  },
+  "advanced": {
+    "state": "default",
+    "focus": 3,
+    "height": 48,
+    "weight": 700,
+    "measure": 65,
+    "tracking": -2,
+    "border": 1,
+    "shadow": "none",
+    "opacity": 100,
+    "columns": 210,
+    "gap": 24,
+    "align": "stretch",
+    "reduce": false,
+    "underline": true,
+    "motion": 150,
+    "colors": {
+      "success": "#15803D",
+      "warning": "#A85C00",
+      "danger": "#B91C1C",
+      "focus": "#9D5700"
+    }
+  }
+}

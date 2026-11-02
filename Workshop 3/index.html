@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn web design with The Daisy Project: practical lessons in project planning, HTML, CSS Grid and Flexbox, typography, colour and accessible components.">
+  <title>The Daisy Project — Web Design Field Guide</title>
+  <!-- Save the exported CSS alongside this file. -->
+  <link rel="stylesheet" href="tokens.css">
+</head>
+<body class="sample-home">
+  <a class="sample-skip" href="#main-content">Skip to main content</a>
+  <header class="sample-header" id="top" tabindex="-1">
+    <div class="container sample-header-inner">
+      <a class="sample-brand" href="#home">
+        <span class="sample-logo" aria-hidden="true">Logo</span>
+        <span class="sample-brand-title">The Daisy Project</span>
+      </a>
+      <nav class="sample-desktop-navigation" aria-label="Main navigation">
+        <ul class="sample-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#design-process">Process</a></li>
+          <li><a href="#services">Lessons</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <details class="sample-menu" id="sample-menu">
+        <summary aria-controls="sample-mobile-navigation">
+          <svg class="sample-menu-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false">
+            <path class="sample-menu-bars" d="M4 6h16M4 12h16M4 18h16"/>
+            <path class="sample-menu-close" d="m6 6 12 12M6 18 18 6"/>
+          </svg>
+          <span>Menu</span>
+        </summary>
+        <nav id="sample-mobile-navigation" class="sample-mobile-navigation" aria-label="Main navigation">
+          <ul class="sample-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#design-process">Process</a></li>
+          <li><a href="#services">Lessons</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main id="main-content" class="container" tabindex="-1">
+    <section id="home" class="sample-grid sample-hero" aria-labelledby="hero-title">
+      <div>
+        <p class="sample-eyebrow">The Daisy Project / Web Design Field Guide</p>
+        <h1 id="hero-title" class="page-title">A better web starts with one good decision.</h1>
+        <p class="sample-lead">Learn by making. Turn a simple page into a thoughtful design system with practical lessons in layout, type, colour and accessible interfaces.</p>
+        <div class="button-row sample-section-actions">
+          <a class="ds-button ds-button--primary" href="#services">Find your first lesson</a>
+          <a class="ds-button ds-button--secondary" href="#grid-lab">Explore the live grid <span aria-hidden="true">↘</span></a>
+        </div>
+        <dl class="sample-stats">
+          <div><dt>10 practical lessons</dt><dd>From brief to review</dd></div>
+          <div><dt>1 living system</dt><dd>Small decisions, shared rules</dd></div>
+        </dl>
+      </div>
+      <figure class="sample-hero-image">
+        <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22960%22%20height%3D%22720%22%20viewBox%3D%220%200%20960%20720%22%3E%3Crect%20width%3D%22960%22%20height%3D%22720%22%20fill%3D%22%23EDF2F7%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22818%22%20cy%3D%22114%22%20r%3D%22100%22%20fill%3D%22%23CBDB2A%22%20opacity%3D%22.55%22%2F%3E%0A%20%20%3Crect%20x%3D%2256%22%20y%3D%2264%22%20width%3D%22848%22%20height%3D%22592%22%20rx%3D%2228%22%20fill%3D%22%23FFFFFF%22%20stroke%3D%22%23C5D0DD%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M58%20126H902%22%20stroke%3D%22%23C5D0DD%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%2294%22%20cy%3D%2296%22%20r%3D%229%22%20fill%3D%22%23004780%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22124%22%20cy%3D%2296%22%20r%3D%229%22%20fill%3D%22%2337434C%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22154%22%20cy%3D%2296%22%20r%3D%229%22%20fill%3D%22%23CBDB2A%22%2F%3E%0A%20%20%3Crect%20x%3D%2296%22%20y%3D%22166%22%20width%3D%2248%22%20height%3D%2240%22%20rx%3D%228%22%20fill%3D%22%23004780%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M168%20186H346M678%20186H734M762%20186H852%22%20stroke%3D%22%2314253A%22%20stroke-width%3D%2210%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.55%22%2F%3E%0A%20%20%3Crect%20x%3D%2296%22%20y%3D%22246%22%20width%3D%22768%22%20height%3D%22238%22%20rx%3D%2216%22%20fill%3D%22%23EDF2F7%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M128%20290H380M128%20328H346%22%20stroke%3D%22%23004780%22%20stroke-width%3D%2220%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M128%20372H394M128%20398H350%22%20stroke%3D%22%2314253A%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.45%22%2F%3E%0A%20%20%3Crect%20x%3D%22128%22%20y%3D%22430%22%20width%3D%22126%22%20height%3D%2224%22%20rx%3D%226%22%20fill%3D%22%23004780%22%2F%3E%0A%20%20%3Crect%20x%3D%22274%22%20y%3D%22430%22%20width%3D%22108%22%20height%3D%2224%22%20rx%3D%226%22%20fill%3D%22%2337434C%22%2F%3E%0A%20%20%3Crect%20x%3D%22512%22%20y%3D%22274%22%20width%3D%22316%22%20height%3D%22180%22%20rx%3D%2212%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%3Crect%20x%3D%22536%22%20y%3D%22298%22%20width%3D%22124%22%20height%3D%22132%22%20rx%3D%228%22%20fill%3D%22%23004780%22%2F%3E%0A%20%20%3Crect%20x%3D%22676%22%20y%3D%22298%22%20width%3D%22128%22%20height%3D%2256%22%20rx%3D%228%22%20fill%3D%22%23CBDB2A%22%2F%3E%0A%20%20%3Crect%20x%3D%22676%22%20y%3D%22370%22%20width%3D%22128%22%20height%3D%2260%22%20rx%3D%228%22%20fill%3D%22%2337434C%22%2F%3E%0A%20%20%3Crect%20x%3D%2296%22%20y%3D%22512%22%20width%3D%22240%22%20height%3D%2298%22%20rx%3D%2212%22%20fill%3D%22%23EDF2F7%22%2F%3E%3Crect%20x%3D%22116%22%20y%3D%22532%22%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%228%22%20fill%3D%22%23004780%22%2F%3E%3Cpath%20d%3D%22M168%20546H310%22%20stroke%3D%22%2314253A%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.45%22%2F%3E%3Crect%20x%3D%22360%22%20y%3D%22512%22%20width%3D%22240%22%20height%3D%2298%22%20rx%3D%2212%22%20fill%3D%22%23EDF2F7%22%2F%3E%3Crect%20x%3D%22380%22%20y%3D%22532%22%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%228%22%20fill%3D%22%2337434C%22%2F%3E%3Cpath%20d%3D%22M432%20546H574%22%20stroke%3D%22%2314253A%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.45%22%2F%3E%3Crect%20x%3D%22624%22%20y%3D%22512%22%20width%3D%22240%22%20height%3D%2298%22%20rx%3D%2212%22%20fill%3D%22%23EDF2F7%22%2F%3E%3Crect%20x%3D%22644%22%20y%3D%22532%22%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%228%22%20fill%3D%22%23CBDB2A%22%2F%3E%3Cpath%20d%3D%22M696%20546H838%22%20stroke%3D%22%2314253A%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.45%22%2F%3E%3C%2Fsvg%3E" width="960" height="720" alt="A browser wireframe with a header, a two-column hero, lesson cards and palette-coloured layout blocks.">
+        <figcaption>Sketch the page. Connect the decisions. Make it your own.</figcaption>
+      </figure>
+    </section>
+    <section id="about" class="sample-section sample-grid sample-split" aria-labelledby="about-title">
+      <figure class="sample-about-image">
+        <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22960%22%20height%3D%22720%22%20viewBox%3D%220%200%20960%20720%22%3E%3Crect%20width%3D%22960%22%20height%3D%22720%22%20fill%3D%22%23EDF2F7%22%2F%3E%0A%20%20%3Crect%20x%3D%2256%22%20y%3D%2256%22%20width%3D%22848%22%20height%3D%22608%22%20rx%3D%2228%22%20fill%3D%22%23FFFFFF%22%20stroke%3D%22%23C5D0DD%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%3Ctext%20x%3D%2296%22%20y%3D%22126%22%20fill%3D%22%2314253A%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%3EA%20little%20structure.%20A%20lot%20of%20possibility.%3C%2Ftext%3E%0A%20%20%3Crect%20x%3D%2296%22%20y%3D%22174%22%20width%3D%2252%22%20height%3D%22414%22%20rx%3D%226%22%20fill%3D%22%23004780%22%20opacity%3D%22.1%22%2F%3E%3Crect%20x%3D%22160%22%20y%3D%22174%22%20width%3D%2252%22%20height%3D%22414%22%20rx%3D%226%22%20fill%3D%22%23004780%22%20opacity%3D%22.1%22%2F%3E%3Crect%20x%3D%22224%22%20y%3D%22174%22%20width%3D%2252%22%20height%3D%22414%22%20rx%3D%226%22%20fill%3D%22%23004780%22%20opacity%3D%22.1%22%2F%3E%3Crect%20x%3D%22288%22%20y%3D%22174%22%20width%3D%2252%22%20height%3D%22414%22%20rx%3D%226%22%20fill%3D%22%23004780%22%20opacity%3D%22.1%22%2F%3E%3Crect%20x%3D%22352%22%20y%3D%22174%22%20width%3D%2252%22%20height%3D%22414%22%20rx%3D%226%22%20fill%3D%22%23004780%22%20opacity%3D%22.1%22%2F%3E%3Crect%20x%3D%22416%22%20y%3D%22174%22%20width%3D%2252%22%20height%3D%22414%22%20rx%3D%226%22%20fill%3D%22%23004780%22%20opacity%3D%22.1%22%2F%3E%3Crect%20x%3D%22480%22%20y%3D%22174%22%20width%3D%2252%22%20height%3D%22414%22%20rx%3D%226%22%20fill%3D%22%23004780%22%20opacity%3D%22.1%22%2F%3E%3Crect%20x%3D%22544%22%20y%3D%22174%22%20width%3D%2252%22%20height%3D%22414%22%20rx%3D%226%22%20fill%3D%22%23004780%22%20opacity%3D%22.1%22%2F%3E%3Crect%20x%3D%22608%22%20y%3D%22174%22%20width%3D%2252%22%20height%3D%22414%22%20rx%3D%226%22%20fill%3D%22%23004780%22%20opacity%3D%22.1%22%2F%3E%3Crect%20x%3D%22672%22%20y%3D%22174%22%20width%3D%2252%22%20height%3D%22414%22%20rx%3D%226%22%20fill%3D%22%23004780%22%20opacity%3D%22.1%22%2F%3E%3Crect%20x%3D%22736%22%20y%3D%22174%22%20width%3D%2252%22%20height%3D%22414%22%20rx%3D%226%22%20fill%3D%22%23004780%22%20opacity%3D%22.1%22%2F%3E%3Crect%20x%3D%22800%22%20y%3D%22174%22%20width%3D%2252%22%20height%3D%22414%22%20rx%3D%226%22%20fill%3D%22%23004780%22%20opacity%3D%22.1%22%2F%3E%0A%20%20%3Crect%20x%3D%2296%22%20y%3D%22198%22%20width%3D%22372%22%20height%3D%22152%22%20rx%3D%2212%22%20fill%3D%22%23004780%22%2F%3E%0A%20%20%3Crect%20x%3D%22492%22%20y%3D%22198%22%20width%3D%22372%22%20height%3D%22152%22%20rx%3D%2212%22%20fill%3D%22%2337434C%22%2F%3E%0A%20%20%3Crect%20x%3D%2296%22%20y%3D%22374%22%20width%3D%22240%22%20height%3D%22128%22%20rx%3D%2212%22%20fill%3D%22%23CBDB2A%22%2F%3E%0A%20%20%3Crect%20x%3D%22360%22%20y%3D%22374%22%20width%3D%22240%22%20height%3D%22128%22%20rx%3D%2212%22%20fill%3D%22%23004780%22%2F%3E%0A%20%20%3Crect%20x%3D%22624%22%20y%3D%22374%22%20width%3D%22240%22%20height%3D%22128%22%20rx%3D%2212%22%20fill%3D%22%2337434C%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M96%20548H864%22%20stroke%3D%22%2314253A%22%20stroke-width%3D%228%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.25%22%2F%3E%0A%20%20%3Ctext%20x%3D%2296%22%20y%3D%22626%22%20fill%3D%22%2314253A%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2226%22%3E12%20tracks%20%2F%20flexible%20spans%20%2F%20one%20shared%20rhythm%3C%2Ftext%3E%3C%2Fsvg%3E" width="960" height="720" loading="lazy" alt="Twelve grid tracks supporting two equal panels and a row of three cards.">
+        <figcaption>One grid can support many compositions.</figcaption>
+      </figure>
+      <div>
+        <p class="sample-eyebrow">About this practice space</p>
+        <h2 id="about-title" class="heading-1">Start with structure. Add intention.</h2>
+        <p>You do not need a perfect mockup to begin. Start with meaningful content, give it a clear hierarchy, then create a few rules you can reuse.</p>
+        <ol class="sample-method"><li><strong>Structure:</strong> use header, main, sections and footer to describe the page.</li><li><strong>Hierarchy:</strong> give headings, body copy and actions distinct jobs.</li><li><strong>Consistency:</strong> connect repeated choices with design tokens.</li></ol>
+        <blockquote><p>One layout. A handful of tokens. A system you can explain.</p><cite>Your goal for this field guide</cite></blockquote>
+        <div class="button-row sample-section-actions">
+          <a class="ds-button ds-button--primary" href="#services">Browse the lessons</a>
+          <a class="ds-button ds-button--secondary" href="#design-process">Plan before the palette</a>
+        </div>
+      </div>
+    </section>
+    <section id="design-process" class="sample-section" aria-labelledby="process-title">
+      <div class="sample-section-heading"><p class="sample-eyebrow">Before the palette</p><h2 id="process-title" class="heading-1">Plan the experience. Then give it a visual language.</h2><p>Start with the audience and task, organize the content, sketch its hierarchy and follow a prototype path. These artifacts reflect the planning fields saved in your studio project. The field guide remains a teaching sample; adapt it to build your finished website.</p></div>
+      <article id="brief-lab" class="sample-process-stage" aria-labelledby="sample-brief-title"><p class="sample-eyebrow">01 / Project brief</p><h3 id="sample-brief-title" class="heading-2">Write a brief for a website project.</h3><ol class="process-brief-guide">
+        <li><strong>Purpose:</strong> Why does this website need to exist? Name its main goal and the action visitors should take.</li>
+        <li><strong>Audience:</strong> Who is it for, and what information or task brings them to the website?</li>
+        <li><strong>Pages and features:</strong> What is needed for the first release? List the pages and functions, and say what is out of scope.</li>
+        <li><strong>Content:</strong> What text, images and logos are needed? Name who will supply them and when.</li>
+        <li><strong>Design and requirements:</strong> Note the brand or tone, mobile and keyboard needs, and any required platform or hosting.</li>
+        <li><strong>Delivery:</strong> Agree a deadline, budget or time limit, what will be handed over, and who approves and maintains the website.</li>
+        <li><strong>Success:</strong> Describe one observable result or a simple task you can test with a visitor.</li>
+      </ol>
+      <p class="process-brief-template"><strong>Start with:</strong> Build [website] for [audience] so they can [main action]. Include [pages and features]; leave out [not included]. [Owner] supplies [content] by [date]. Deliver [website or files] by [deadline] within [budget or time limit]. Check success by [test].</p>
+      <section class="process-brief-example" aria-label="Example website project brief"><h4>Example: a small café website</h4><p>Build a three-page website for local customers to check the menu and plan a visit. Include Home, Menu and Visit pages with opening hours, an address and a map link; online ordering is out of scope. The owner supplies the logo, menu and photos in week one. Use the café's existing branding and support phones and keyboard use. Hand over HTML/CSS files within two weeks and the agreed budget; the owner approves the content and arranges updates. Test whether a new visitor can find today's opening hours and the menu without help.</p></section>
+      <p><strong>Before moving on:</strong> Agree the brief with the project owner. Mark unknowns as &ldquo;to confirm&rdquo;. Use the agreed pages and content to start your sitemap.</p>
+      <p class="learning-reference">Optional further reading: <a href="https://www.smashingmagazine.com/2018/02/comprehensive-website-planning-guide-part1/">Smashing Magazine: website planning and needs assessment</a>.</p></article>
+      <article id="ia-lab" class="sample-process-stage" aria-labelledby="sample-ia-title"><p class="sample-eyebrow">02 / Information architecture</p><h3 id="sample-ia-title" class="heading-2">Give content a clear, findable home.</h3><div class="process-map"><p><strong>The Daisy Project</strong> / Advanced sitemap plan</p><ul><li><strong>Home</strong></li><li><strong>About</strong></li><li><strong>Design process</strong><ul><li>Project brief</li><li>Information architecture</li><li>Wireframing</li><li>Prototyping</li></ul></li><li><strong>Lessons</strong><ul><li>Brief lesson</li><li>Architecture lesson</li><li>Wireframe lesson</li><li>Prototype lesson</li><li>Colour lesson</li><li>Typography lesson</li><li>Structure lesson</li><li>Layout lesson</li><li>Components lesson</li><li>Review lesson</li></ul></li><li><strong>Layout workshop</strong><ul><li>CSS Grid</li><li>Flexbox</li><li>Choosing a layout system</li><li>Layout comparison</li></ul></li><li><strong>Visual language</strong><ul><li>Typography</li><li>Colour</li></ul></li><li><strong>Resources</strong><ul><li>Resource library</li><li>Getting started</li><li>Review checklist</li><li>Learning from exports</li><li>Practice tip</li></ul></li><li><strong>Contact</strong></li><li><strong>Components</strong><ul><li>Actions</li><li>Feedback</li><li>Progress and controls</li></ul></li><li><strong>Footer</strong></li></ul><p>This maps sections and content groups on a single page. The footer uses the same plan: existing content is linked; new page ideas are labelled Planned page. Navigation can show a shorter selection of key destinations.</p></div></article>
+      <article id="wireframe-lab" class="sample-process-stage" aria-labelledby="sample-wireframe-title"><p class="sample-eyebrow">03 / Wireframing</p><h3 id="sample-wireframe-title" class="heading-2">Test hierarchy before decoration.</h3><figure class="process-wireframe process-wireframe--split"><div class="process-wire-header"><strong>Header / project identity</strong><p>The Daisy Project</p></div><div class="process-wire-nav"><strong>Navigation</strong><p>Home / About / Design process / Lessons / Layout workshop / Visual language / Resources / Contact / Components / Footer</p></div><div class="process-wire-main"><strong>Main content / first priority</strong><p>Not recorded yet.</p><span class="process-wire-action">Main action / choose a lesson</span></div><div class="process-wire-aside"><strong>Supporting content</strong><p>Not recorded yet.</p></div><div class="process-wire-footer"><strong>Footer / next steps</strong></div><figcaption>Lead with the main task, group related lessons and keep supporting notes close. This is a structural sketch; neutral surfaces keep attention on hierarchy.</figcaption></figure></article>
+      <article id="prototype-lab" class="sample-process-stage" aria-labelledby="sample-prototype-title"><p class="sample-eyebrow">04 / Prototyping</p><h3 id="sample-prototype-title" class="heading-2">Follow a task before polishing the palette.</h3><div class="process-prototype"><p><strong>Task:</strong> Find a useful lesson and decide what to practise next.</p><p>Follow these fragment links between three paper-style screens. They demonstrate navigation, not a working registration or submission.</p><ol class="process-screens">
+      <li id="sample-plan-discover" tabindex="-1"><h4>1. Discover</h4><p>Not recorded yet.</p><a href="#sample-plan-choose">Browse the lesson choices →</a></li>
+      <li id="sample-plan-choose" tabindex="-1"><h4>2. Choose</h4><p>Choose what to explore: Home, About, Design process, Lessons, Layout workshop, Visual language, Resources, Contact, Components, Footer</p><a href="#sample-plan-review">Choose a lesson and review →</a><a href="#sample-plan-discover">← Back to discover</a></li>
+      <li id="sample-plan-review" tabindex="-1"><h4>3. Review</h4><p><strong>Success signal:</strong> Not recorded yet.</p><p>Did the path support the task? Record what happened in the prototype notes before refining the design.</p><a href="#sample-plan-discover">Restart the task</a></li>
+      </ol><p class="process-note"><strong>Observation notes:</strong> Ask someone to follow the task without coaching. Record hesitation, missing information and the next change.</p></div></article>
+      <div class="button-row sample-section-actions">
+        <a class="ds-button ds-button--primary" href="#colour-lab">Give colours a purpose</a>
+        <a class="ds-button ds-button--secondary" href="#services">Choose your next lesson</a>
+      </div>
+    </section>
+    <section id="services" class="sample-section" aria-labelledby="services-title">
+      <div class="sample-section-heading"><p class="sample-eyebrow">Your learning path</p><h2 id="services-title" class="heading-1">Ten small lessons. A stronger foundation.</h2><p>Follow the sequence or choose the skill you want to practise next. Every lesson leads to an example on this page.</p></div>
+      <div class="sample-grid card-grid">
+        <article id="lesson-brief" class="card sample-lesson-card sample-flex-stack"><span class="sample-badge">01 / Brief</span><h3 class="heading-2">Name the problem.</h3><p>Record audience, task, scope, success and constraints.</p><ul><li>An observable audience task</li><li>A success signal to review</li></ul><a class="ds-button ds-button--text" href="#brief-lab">Write a project brief &rarr;</a></article>
+        <article id="lesson-architecture" class="card sample-lesson-card sample-flex-stack"><span class="sample-badge">02 / Architecture</span><h3 class="heading-2">Make content findable.</h3><p>Group pages and labels around the main audience task.</p><ul><li>A content inventory</li><li>Parent and child relationships</li></ul><a class="ds-button ds-button--text" href="#ia-lab">Read the content map &rarr;</a></article>
+        <article id="lesson-wireframe" class="card sample-lesson-card sample-flex-stack"><span class="sample-badge">03 / Wireframe</span><h3 class="heading-2">Sketch before styling.</h3><p>Plan hierarchy and responsive reading order with neutral blocks.</p><ul><li>Main and supporting content</li><li>Narrow and wide arrangements</li></ul><a class="ds-button ds-button--text" href="#wireframe-lab">Explore the wireframe &rarr;</a></article>
+        <article id="lesson-prototype" class="card sample-lesson-card sample-flex-stack"><span class="sample-badge">04 / Prototype</span><h3 class="heading-2">Follow a task.</h3><p>Connect screens, observe hesitation and revise the plan.</p><ul><li>Discover, Choose and Review</li><li>Notes from a task walkthrough</li></ul><a class="ds-button ds-button--text" href="#prototype-lab">Try the prototype &rarr;</a></article>
+        <article id="lesson-colour" class="card sample-lesson-card sample-flex-stack"><span class="sample-badge">05 / Colour</span><h3 class="heading-2">Give every colour a job.</h3><p>Use the brief to connect brand references to interface roles.</p><ul><li>Primary, Supporting and Accent</li><li>Text, surfaces and contrast</li></ul><a class="ds-button ds-button--text" href="#colour-lab">Read the palette &rarr;</a></article>
+        <article id="lesson-typography" class="card sample-lesson-card sample-flex-stack"><span class="sample-badge">06 / Typography</span><h3 class="heading-2">Make the next line inviting.</h3><p>Build hierarchy with a small, repeatable type scale.</p><ul><li>Readable body text and leading</li><li>Headings that respond to width</li></ul><a class="ds-button ds-button--text" href="#type-lab">Practise typography &rarr;</a></article>
+        <article id="lesson-structure" class="card sample-lesson-card sample-flex-stack"><span class="sample-badge">07 / Structure</span><h3 class="heading-2">Give content a home.</h3><p>Use semantic HTML to organize a page before styling it.</p><ul><li>One clear page heading</li><li>Useful landmarks and sections</li></ul><a class="ds-button ds-button--text" href="#about">Start with structure &rarr;</a></article>
+        <article id="lesson-layout" class="card sample-lesson-card sample-flex-stack"><span class="sample-badge">08 / Layout</span><h3 class="heading-2">Choose a layout system.</h3><p>Use Grid for shared tracks and Flexbox for content along an axis.</p><ul><li>Grid: rows and columns</li><li>Flexbox: align, grow and wrap</li></ul><a class="ds-button ds-button--text" href="#grid-lab">Explore Grid and Flexbox &rarr;</a></article>
+        <article id="lesson-components" class="card sample-lesson-card sample-flex-stack"><span class="sample-badge">09 / Components</span><h3 class="heading-2">Design beyond the default.</h3><p>Make actions, progress and feedback understandable.</p><ul><li>Hover, focus and pressed cues</li><li>Labels and meaningful feedback</li></ul><a class="ds-button ds-button--text" href="#components">Explore the interface lab &rarr;</a></article>
+        <article id="lesson-review" class="card sample-lesson-card sample-flex-stack"><span class="sample-badge">10 / Review</span><h3 class="heading-2">Check what you made.</h3><p>Test with realistic content and keep the next change clear.</p><ul><li>Keyboard, contrast and small screens</li><li>Record remaining human checks</li></ul><a class="ds-button ds-button--text" href="#resources">Review the field notes &rarr;</a></article>
+      </div>
+      <div class="button-row sample-section-actions">
+        <a class="ds-button ds-button--primary" href="#grid-lab">Start the layout exercise</a>
+        <a class="ds-button ds-button--secondary" href="#resources">Browse the field notes</a>
+      </div>
+    </section>
+    <section id="grid-lab" class="sample-section" aria-labelledby="grid-title">
+      <div class="sample-section-heading"><p class="sample-eyebrow">The layout workshop</p><h2 id="grid-title" class="heading-1">Grid and Flexbox. One connected system.</h2><p>Start with normal document flow for headings and paragraphs. Add Grid when rows and columns need shared tracks; use Flexbox when content needs to align along a row or column. Resize this page to compare both systems.</p></div>
+      <h3 id="grid-example" class="heading-2">1. Grid gives the page a structure.</h3>
+      <div class="sample-grid sample-workshop-grid">
+        <figure class="card sample-grid-figure">
+          <div class="sample-grid-tracks" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          <div class="sample-grid-demo">
+            <div class="sample-demo-header"><strong>Header</strong><small>All 12 columns</small></div>
+            <div class="sample-demo-main"><strong>Room for the main idea.</strong><p>The most important content gets the most space.</p><small>Desktop: 8 of 12 columns</small></div>
+            <div class="sample-demo-aside"><strong>A useful aside.</strong><p>Keep related notes close.</p><small>Desktop: 4 of 12 columns</small></div>
+            <div class="sample-demo-card"><strong>Learn</strong><small>Desktop: 4 columns</small></div>
+            <div class="sample-demo-card"><strong>Build</strong><small>Desktop: 4 columns</small></div>
+            <div class="sample-demo-card"><strong>Reflect</strong><small>Desktop: 4 columns</small></div>
+            <div class="sample-demo-footer"><strong>Footer</strong><small>One complete row</small></div>
+          </div>
+          <figcaption>Wide screens: 12 equal tracks. Small screens: one readable column.</figcaption>
+        </figure>
+        <aside class="card sample-lab-notes" aria-labelledby="grid-notes-title">
+          <span class="sample-badge">Try this</span><h3 id="grid-notes-title" class="heading-2">Give the layout some room.</h3><ol><li>Compare the page at phone and desktop widths.</li><li>Find the 8 / 4 split and the three equal cards.</li><li>Change the grid gap in the studio, then compare again.</li></ol>
+          <details class="sample-code-solution"><summary>See the grid recipe</summary><pre><code>.sample-grid-demo {
+  display: grid;
+  grid-template-columns:
+    repeat(12, minmax(0, 1fr));
+  gap: var(--grid-gap);
+}
+
+/* Wide view: main / aside */
+.sample-demo-main { grid-column: span 8; }
+.sample-demo-aside { grid-column: span 4; }
+.sample-demo-card { grid-column: span 4; }
+.sample-demo-header, .sample-demo-footer {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 48rem) {
+  .sample-grid-demo {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .sample-demo-main, .sample-demo-aside,
+  .sample-demo-card { grid-column: auto; }
+}</code></pre></details>
+        </aside>
+      </div>
+      <article id="flex-lab" class="sample-flex-lab" aria-labelledby="flex-title">
+        <h3 id="flex-title" class="heading-2">2. Flexbox lets content find its fit.</h3>
+        <p>Flexbox works along one main axis at a time. A row follows the inline direction; a column follows the block direction. With wrapping, each new line distributes its own space independently.</p>
+        <div class="sample-grid sample-split">
+          <div class="card">
+            <h4 class="heading-2">A wrapping topic row</h4>
+            <div class="sample-flex-row">
+              <strong>Explore a topic</strong>
+              <div class="sample-flex-tags" role="list" aria-label="Example topics">
+                <span class="sample-badge" role="listitem">HTML</span><span class="sample-badge" role="listitem">CSS Grid</span><span class="sample-badge" role="listitem">Flexbox</span>
+              </div>
+            </div>
+            <p class="small-text">The title and topics use space-between on the main axis and center on the cross axis. Gap keeps a minimum separation; flex-wrap moves items onto another line when space runs out.</p>
+            <h4 class="heading-2">A flexible content row</h4>
+            <div class="sample-flex-media">
+              <span class="sample-flex-marker" aria-hidden="true">Aa</span>
+              <div class="sample-flex-copy"><strong>Let the words take the space.</strong><p>The marker keeps its width. This text grows into available space, shrinks when needed and wraps below the marker when its basis no longer fits.</p></div>
+            </div>
+            <p class="small-text">flex: 1 1 12rem means grow: 1, shrink: 1, basis: 12rem. min-width: 0 allows the text item to shrink below its automatic minimum.</p>
+          </div>
+          <aside class="card" aria-labelledby="flex-notes-title">
+            <span class="sample-badge">Try this</span><h4 id="flex-notes-title" class="heading-2">Follow the axes.</h4>
+            <ol><li>Compare 390 px and 1280 px previews. Watch the topics wrap.</li><li>Change the grid gap: both Grid tracks and these Flexbox rows share that token.</li><li>Inspect the lesson cards: Grid places each card; a column flex container pushes its final link down with margin-top: auto.</li></ol>
+            <p>Use justify-content along the main axis and align-items across it. Changing flex-direction changes which axis each property controls. Keep the HTML in a meaningful reading order when wrapping.</p>
+            <details class="sample-code-solution"><summary>See the Flexbox recipes</summary><pre><code>.sample-flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--grid-gap);
+}
+.sample-flex-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+.sample-flex-media {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--grid-gap);
+}
+.sample-flex-marker { flex: 0 0 var(--space-12); }
+.sample-flex-copy { flex: 1 1 12rem; min-width: 0; }
+.sample-flex-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sample-flex-stack &gt; .ds-button { margin-top: auto; }</code></pre></details>
+          </aside>
+        </div>
+      </article>
+      <div class="sample-layout-comparison" aria-labelledby="layout-choice-title">
+        <h3 id="layout-choice-title" class="heading-2">3. Combine the systems with purpose.</h3>
+        <div id="layout-comparison" class="sample-table-wrap" role="region" aria-label="Layout system comparison" tabindex="0">
+          <table><caption>Choose by the relationship your content needs</caption><thead><tr><th scope="col">System</th><th scope="col">Useful for</th><th scope="col">On this page</th></tr></thead><tbody>
+            <tr><th scope="row">Normal flow</th><td>Content read in sequence</td><td>Headings and paragraphs</td></tr>
+            <tr><th scope="row">CSS Grid</th><td>Shared row and column tracks</td><td>Page splits and lesson-card placement</td></tr>
+            <tr><th scope="row">Flexbox</th><td>Alignment and sizing along an axis</td><td>Navigation, action pairs, topic rows and card interiors</td></tr>
+          </tbody></table>
+        </div>
+        <p class="small-text">Grid can lay out a single row, and Flexbox can wrap into several rows. Choose based on whether items need shared tracks or independent space distribution. The lesson board nests Flexbox inside Grid.</p>
+      </div>
+      <div class="button-row sample-section-actions">
+        <a class="ds-button ds-button--primary" href="#type-lab">Explore type and colour</a>
+        <a class="ds-button ds-button--secondary" href="#resources">Check your layout</a>
+      </div>
+    </section>
+    <section id="type-lab" class="sample-section" aria-labelledby="type-title">
+      <div class="sample-section-heading"><p class="sample-eyebrow">The visual language workshop</p><h2 id="type-title" class="heading-1">Make the important thing easy to find.</h2><p>Use type to create hierarchy and colour to reinforce purpose. The examples below follow your current design decisions.</p></div>
+      <div class="sample-grid sample-split">
+        <article id="type-specimen" class="card sample-type-specimen"><p class="sample-eyebrow">An exercise in hierarchy</p><h3 class="heading-1">Space to think.<br>Room to create.</h3><p>Good typography guides a reader from the big idea to the useful details. Keep the message clear, the measure comfortable and the next action easy to find.</p><dl class="sample-type-settings"><div><dt>Body size</dt><dd>16px</dd></div><div><dt>Scale ratio</dt><dd>1.2</dd></div><div><dt>Body line-height</dt><dd>1.55</dd></div></dl></article>
+        <article id="colour-lab" class="card sample-colour-lab" aria-labelledby="colour-title"><span class="sample-badge">Colour with purpose</span><h3 id="colour-title" class="heading-2">A palette becomes a language.</h3><p>These are interface roles, not a list of interchangeable paint colours. Check each foreground against its actual background in both themes.</p><ul class="sample-token-palette"><li><span class="sample-palette-dot sample-palette-dot--primary" aria-hidden="true"></span><span><strong>Primary</strong><small>Main actions and links</small></span><code>#004780</code></li><li><span class="sample-palette-dot sample-palette-dot--secondary" aria-hidden="true"></span><span><strong>Supporting</strong><small>Supporting actions</small></span><code>#37434C</code></li><li><span class="sample-palette-dot sample-palette-dot--accent" aria-hidden="true"></span><span><strong>Accent</strong><small>Highlights and details</small></span><code>#CBDB2A</code></li></ul><p class="small-text">Add words, shape or an icon whenever colour communicates meaning.</p></article>
+      </div>
+      <div class="button-row sample-section-actions">
+        <a class="ds-button ds-button--primary" href="#components">Explore component states</a>
+        <a class="ds-button ds-button--secondary" href="#contact">Ask a design question</a>
+      </div>
+    </section>
+    <section id="resources" class="sample-section" aria-labelledby="resources-title">
+      <div class="sample-section-heading"><p class="sample-eyebrow">Keep these field notes close</p><h2 id="resources-title" class="heading-1">A little guidance for your next build.</h2><p>Start small, review the details and leave yourself a clear next step.</p></div>
+      <div class="sample-grid sample-split">
+        <div id="resource-library" class="sample-table-wrap" role="region" aria-label="Resource library" tabindex="0">
+          <table><caption>Resources for your next website</caption><thead><tr><th scope="col">Resource</th><th scope="col">Format</th><th scope="col">Explore</th></tr></thead><tbody>
+            <tr><th scope="row">Build your first page</th><td><span class="sample-badge">Guide</span></td><td><a href="#getting-started">Read the guide</a></td></tr>
+            <tr><th scope="row">Review your design</th><td><span class="sample-badge">Checklist</span></td><td><a href="#working-together">See the checklist</a></td></tr>
+            <tr><th scope="row">A question worth asking</th><td><span class="sample-badge">Practice</span></td><td><a href="#contact">Ask a question</a></td></tr>
+          </tbody></table>
+        </div>
+        <div class="sample-faq">
+          <details id="getting-started" open><summary>How do I use this field guide?</summary><p>Start with the brief, content map, wireframe and prototype before choosing a palette. Then choose a lesson, inspect the example and change one design decision in the studio. Compare the preview with the generated HTML and CSS. Write down what changed and why it helped.</p></details>
+          <details id="working-together"><summary>What belongs in my review checklist?</summary><p>Check a narrow viewport, long headings, keyboard focus, form labels and text contrast in both themes. Test intermediate widths too. Record anything that still needs a human review before sharing your work.</p></details>
+          <details id="learning-from-exports"><summary>Can I learn from the exported page?</summary><p>Yes. Save the HTML and its companion CSS together, open the page and trace a component class back to its design tokens. The planning artifacts, linked prototype, Grid, Flexbox and native menu work without a JavaScript framework.</p></details>
+        </div>
+      </div>
+      <aside id="practice-tip" class="sample-notice" aria-label="Practice tip"><strong>Change one decision at a time.</strong> Compare before and after, test at another width, and write down the reason for your choice.</aside>
+      <div class="button-row sample-section-actions">
+        <a class="ds-button ds-button--primary" href="#contact">Bring a design question</a>
+        <a class="ds-button ds-button--secondary" href="#components">Explore the interface lab</a>
+      </div>
+    </section>
+    <section id="contact" class="sample-section sample-grid sample-split" aria-labelledby="contact-title">
+      <div><p class="sample-eyebrow">A space for your next question</p><h2 id="contact-title" class="heading-1">What would you like to figure out?</h2><p>A layout that will not quite fit? A type scale that feels too loud? Describe the decision you are practising, what you tried and what you noticed.</p><p class="small-text">Use this practice form to explore labels, validation and field states. It has no message-delivery backend.</p></div>
+      <form class="card sample-form" action="#contact" method="get" aria-describedby="contact-note">
+        <div><label for="contact-name">Your name</label><input class="input" id="contact-name" name="name" autocomplete="name" placeholder="Alex Morgan" required></div>
+        <div><label for="contact-email">Email address</label><input class="input" type="email" id="contact-email" name="email" autocomplete="email" placeholder="alex@example.com" aria-describedby="contact-email-help" required><small id="contact-email-help">Use a sample address while exploring this practice form.</small></div>
+        <div><label for="contact-service">What are you practising?</label><select class="input" id="contact-service" name="service"><option value="">Choose a topic</option><option>Project brief and architecture</option><option>Wireframing and prototyping</option><option>Semantic HTML</option><option>Responsive CSS Grid and Flexbox</option><option>Typography and colour</option><option>Accessible components</option></select></div>
+        <fieldset><legend>How would you like to practise?</legend><label class="sample-choice"><input type="radio" name="start" value="conversation" checked> A quick question</label><label class="sample-choice"><input type="radio" name="start" value="workshop"> A guided exercise</label></fieldset>
+        <div><label for="contact-message">What have you tried?</label><textarea class="input" id="contact-message" name="message" rows="4" placeholder="I am trying to… Here is what I noticed…"></textarea></div>
+        <label class="sample-choice"><input type="checkbox" name="copy" value="yes"> Include a copy in this practice request.</label>
+        <div class="button-row sample-section-actions">
+          <button class="ds-button ds-button--primary" type="submit">Preview my question</button>
+          <a class="ds-button ds-button--secondary" href="#services">Revisit the lessons</a>
+        </div>
+        <p id="contact-note" class="small-text">This is a sample form. No message is sent; submitting returns to this page.</p>
+      </form>
+    </section>
+    <section id="components" class="sample-section" aria-labelledby="components-title">
+      <div class="sample-section-heading"><p class="sample-eyebrow">The interface lab</p><h2 id="components-title" class="heading-1">Small details. A more usable interface.</h2><p>Compare action priorities, look for non-colour state cues and explore native form controls. These examples follow the settings in your Button Design Wizard.</p></div>
+      <div class="sample-grid card-grid">
+        <article id="component-actions" class="card"><h3 class="heading-2">Actions that feel familiar</h3><div class="button-row"><button class="ds-button ds-button--primary" type="button">Primary action</button><button class="ds-button ds-button--secondary" type="button">Secondary action</button><button class="ds-button ds-button--accent" type="button">Accent action</button><button class="ds-button ds-button--outline" type="button">Outline action</button><button class="ds-button ds-button--text" type="button">Text action</button></div><p class="small-text">Current action state: default.</p><div class="button-row"><button class="ds-button ds-button--primary sample-selected-action" type="button" data-preview-state="default" aria-describedby="sample-action-help">Continue</button></div><p id="sample-action-help" class="small-text">State example only. Connect this button to an action in your application.</p></article>
+        <article id="component-feedback" class="card"><h3 class="heading-2">Helpful feedback</h3><p class="sample-feedback sample-feedback--success"><strong>Success.</strong> You’re ready for the next step.</p><p class="sample-feedback sample-feedback--warning"><strong>One more thing.</strong> Review your details before continuing.</p><p class="sample-feedback sample-feedback--danger"><strong>Something needs attention.</strong> Check the highlighted field.</p></article>
+        <article id="component-progress" class="card"><h3 class="heading-2">Progress at a glance</h3><label for="sample-progress">Practice checklist — 3 of 4 complete</label><progress id="sample-progress" value="3" max="4">75%</progress><label for="sample-range">Your confidence with CSS Grid</label><input id="sample-range" type="range" min="1" max="5" value="3"><label for="sample-reference">Lesson reference</label><input class="input" id="sample-reference" value="LESSON-001" readonly><label for="sample-unavailable">Available after your review</label><input class="input" id="sample-unavailable" value="Not available yet" disabled></article>
+      </div>
+      <div class="button-row sample-section-actions">
+        <a class="ds-button ds-button--primary" href="#contact">Ask a design question</a>
+        <a class="ds-button ds-button--secondary" href="#grid-lab">Return to the grid</a>
+      </div>
+    </section>
+  </main>
+  <footer class="website-footer sample-footer" id="footer">
+    <div class="container">
+      <div class="footer-inner sample-footer-inner">
+        <div class="footer-identity"><a class="footer-brand" href="#home">The Daisy Project</a><p>A place to learn, practise and build something useful.</p></div>
+        <nav aria-label="Footer navigation"><h2 class="footer-heading">Explore</h2><ul class="footer-links sample-nav"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#resources">Resources</a></li><li><a href="#contact">Contact</a></li><li><a href="#sitemap">Sitemap</a></li></ul></nav>
+      </div>
+      <details class="sitemap" id="sitemap">
+        <summary id="sitemap-title"><span>Sitemap</span><span class="footer-sitemap-hint">All sections and topics</span></summary>
+        <nav aria-labelledby="sitemap-title"><ul class="sitemap-list"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#design-process">Design process</a><ul><li><a href="#brief-lab">Project brief</a></li><li><a href="#ia-lab">Information architecture</a></li><li><a href="#wireframe-lab">Wireframing</a></li><li><a href="#prototype-lab">Prototyping</a></li></ul></li><li><a href="#services">Lessons</a><ul><li><a href="#lesson-brief">Brief lesson</a></li><li><a href="#lesson-architecture">Architecture lesson</a></li><li><a href="#lesson-wireframe">Wireframe lesson</a></li><li><a href="#lesson-prototype">Prototype lesson</a></li><li><a href="#lesson-colour">Colour lesson</a></li><li><a href="#lesson-typography">Typography lesson</a></li><li><a href="#lesson-structure">Structure lesson</a></li><li><a href="#lesson-layout">Layout lesson</a></li><li><a href="#lesson-components">Components lesson</a></li><li><a href="#lesson-review">Review lesson</a></li></ul></li><li><a href="#grid-lab">Layout workshop</a><ul><li><a href="#grid-example">CSS Grid</a></li><li><a href="#flex-lab">Flexbox</a></li><li><a href="#layout-choice-title">Choosing a layout system</a></li><li><a href="#layout-comparison">Layout comparison</a></li></ul></li><li><a href="#type-lab">Visual language</a><ul><li><a href="#type-specimen">Typography</a></li><li><a href="#colour-lab">Colour</a></li></ul></li><li><a href="#resources">Resources</a><ul><li><a href="#resource-library">Resource library</a></li><li><a href="#getting-started">Getting started</a></li><li><a href="#working-together">Review checklist</a></li><li><a href="#learning-from-exports">Learning from exports</a></li><li><a href="#practice-tip">Practice tip</a></li></ul></li><li><a href="#contact">Contact</a></li><li><a href="#components">Components</a><ul><li><a href="#component-actions">Actions</a></li><li><a href="#component-feedback">Feedback</a></li><li><a href="#component-progress">Progress and controls</a></li></ul></li><li><a href="#footer">Footer</a></li></ul></nav>
+      </details>
+      <div class="footer-bottom"><small>&copy; The Daisy Project. A website practice space.</small><a class="back-to-top" href="#top">Back to top <span aria-hidden="true">&uarr;</span></a></div>
+    </div>
+  </footer>
+</body>
+</html>
