@@ -234,16 +234,16 @@ Possible examples include a community organization, local attraction, educationa
 
 On Page 01, create a frame containing:
 
-| Planning Question      | Your Response                                                                      |
-| ---------------------- | ---------------------------------------------------------------------------------- |
-| Website title          | The Daisy Project                                                                  |
-| Website topic          |                                                                                    |
-| Website purpose        | Raise awarness about the program and make it easy for users to navigate within it  |
-| Target audience        | the community                                                                      |
-| Primary user goal      | make it so the users can navigate through tools and donate from an amazon wishlist |
-| Secondary user goals   |                                                                                    |
-| Important information  |                                                                                    |
-| Desired visitor action |                                                                                    |
+| Planning Question      | Your Response                                                                                                                   |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Website title          | The Daisy Project                                                                                                               |
+| Website topic          | Introduce the program to the users and let the general public have ways that they can help and get in touch with the organizers |
+| Website purpose        | Raise awarness about the program and make it easy for users to navigate within it                                               |
+| Target audience        | the community                                                                                                                   |
+| Primary user goal      | make it so the users can navigate through tools and donate from an amazon wishlist                                              |
+| Secondary user goals   |                                                                                                                                 |
+| Important information  |                                                                                                                                 |
+| Desired visitor action | have people nominate someone they know or make donation and learn about the goals of the program                                |
 
 ### Task B3 — Write Three User Goals
 
@@ -257,13 +257,23 @@ Imagine someone visits your website for only 30 seconds.
 
 What is the most important information or action they should notice?
 
+the user should notice how the program works 
+
+who it is geared to help 
+
+how they can get involved if they want to 
+
+how they can nominte someone that they know
+
+--- the highest priority goal should be introducing the user to what the goal of the program is ---
+
 ### Checkpoint B
 
-- [ ] I selected a website topic.
-- [ ] I defined its purpose.
-- [ ] I identified the intended audience.
-- [ ] I created three user goals.
-- [ ] I identified the highest-priority goal.
+- [X] I selected a website topic.
+- [X] I defined its purpose.
+- [X] I identified the intended audience.
+- [X] I created three user goals.
+- [X] I identified the highest-priority goal.
 
 **Worksheet Question B:** Which user goal should receive the most attention on your homepage, and why?
 
