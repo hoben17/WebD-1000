@@ -1,9 +1,9 @@
 # WEBD 1000 — Workshop 03-02: Semantic Header and Navigation
 
-**Instructor:** Davis Boudreau  
-**Duration:** Approximately 30 minutes (allow additional time for first-time learners)  
-**Level:** Beginner — builds on Workshop 03-01  
-**Learning outcome:** Develop standards-compliant webpages using semantic HTML and CSS  
+**Instructor:** Davis Boudreau
+**Duration:** Approximately 30 minutes (allow additional time for first-time learners)
+**Level:** Beginner — builds on Workshop 03-01
+**Learning outcome:** Develop standards-compliant webpages using semantic HTML and CSS
 **Assessment:** Formative workshop practice; retain GitHub evidence in the existing course repository
 
 ## What you will build
@@ -12,7 +12,7 @@ In Workshop 03-01, you created an HTML page and learned how CSS selectors contro
 
 **Repository rule:** Continue using your **existing WEBD 1000 course GitHub repository**. Do **not** create a new repository. The separate repository is for the independent semester website project.
 
-**Activity folder:** `Workshop3/02-header-nav/`  
+**Activity folder:** `Workshop3/02-header-nav/`
 **Required files:** `index.html` and `styles.css`
 
 ## 1. Understand: What is semantic HTML? (5 minutes)
@@ -164,11 +164,11 @@ h1 { color: #004780; }
 
 Now you will encounter three common ways to select HTML:
 
-| Selector | Type | Matches |
-|---|---|---|
-| `header` | Element selector | Every `<header>` element |
-| `.site-header` | Class selector | Every element with `class="site-header"` |
-| `#about` | ID selector | The element with `id="about"` |
+| Selector         | Type             | Matches                                    |
+| ---------------- | ---------------- | ------------------------------------------ |
+| `header`       | Element selector | Every `<header>` element                 |
+| `.site-header` | Class selector   | Every element with `class="site-header"` |
+| `#about`       | ID selector      | The element with `id="about"`            |
 
 The dot (`.`) belongs in a **CSS class selector**. The hash (`#`) belongs in a **CSS ID selector**. Neither symbol is included when writing the class or ID value in HTML.
 
