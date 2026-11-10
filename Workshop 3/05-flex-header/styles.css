@@ -22,9 +22,6 @@
 --radius-button: 0.5rem;
 }
 
-
-
-
 body {
     background-color: var(--color-background);
     color: var(--color-text);
@@ -36,20 +33,41 @@ body {
 .site-header {
     background-color: #ffffff;
     padding: 20px;
+    padding: vat(--space-medium,1rem)
 }
-.site-name {
-    color: #004780;
-    font-size: 24px;
-    font-weight: bold;
+.header-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-medium, 1rem);
+    max-width: 70rem;
+    margin-inline: auto;
 }
+.site-brand {
+    color: var(--color-primary, #004780);
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: var(--space-medium, 1rem);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 nav ul {
     padding-left: 20px
 }
-nav a {
-    color: #004780;
+.site-navigation a {
+    color: var(--color-primary, #004780);
+    text-decoration: none;
+    padding: 0.5rem;
 }
-nav a:hover {
-    color: #b45309;
+.site-navigation a:hover {
+    text-decoration: underline;
 }
 main {
     padding: 20px
@@ -116,4 +134,9 @@ section {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+}
+.site-navigation a:focus-visible,
+.site-brand:focus-visible {
+    outline: 3px solid #f37327;
+    outline-offset: 3px;
 }
