@@ -1,0 +1,119 @@
+/* Reusable design decisions for this activity */
+:root {
+    --color-primary: #004780;
+    --color-primary-dark: #00345e;
+    --color-text: #14253a;
+    --color-background: #edf2f7;
+    --color_surface: #ffffff;
+    --color-border: #cbd5e1;
+
+
+/* Typography */
+--font-body: Arial, Helvetica, sans-serif;
+--font-size-body: 1rem;
+--font-size-heading: 2rem;
+
+/* Spacing */
+--space-small: 0.5rem;
+--space-medium: 1rem;
+--space-large: 2rem;
+
+/* Shape */
+--radius-button: 0.5rem;
+}
+
+
+
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+    margin: 0;
+}
+
+.site-header {
+    background-color: #ffffff;
+    padding: 20px;
+}
+.site-name {
+    color: #004780;
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    padding-left: 20px
+}
+nav a {
+    color: #004780;
+}
+nav a:hover {
+    color: #b45309;
+}
+main {
+    padding: 20px
+}
+.hero h1 {
+    color: var(--color-primary);
+    font-size: var(--font-size-heading);
+}
+section {
+    margin-bottom: 32px;
+}
+
+.hero {
+    background-color: var(--color-surface);
+    padding: var(--space-large);
+
+}
+.hero-content {
+    max-width: 42rem;
+}
+.hero-eyebrow {
+    color: #004780;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+.hero-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+.cta{
+    display: inline-block;
+    padding: var(--space-small) var(--space-medium);
+    border-radius: var(--radius-button);
+    text-decoration: none;
+}
+.cta-primary {
+    background-color: var(--color-primary);
+    color: var(--color-surface);
+}
+.cta-secondary {
+    background-color: var(--color-surface);
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+.cta-primary:hover {
+    background-color: var(--color-primary-dark);
+}
+.cta:focus-visable {
+    outline: 3px solid #f59e0b;
+    outline-offset: 3px;
+}
+.hero-media {
+    margin-top: 1.5rem;
+}
+.hero-media img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
