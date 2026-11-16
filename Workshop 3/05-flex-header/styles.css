@@ -37,7 +37,7 @@ body {
 }
 .header-layout {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     gap: var(--space-medium, 1rem);
     max-width: 70rem;
@@ -52,7 +52,7 @@ body {
 .nav-list {
     display: flex;
     align-items: center;
-    gap: var(--space-medium, 1rem);
+    gap: 2rem;
     list-style: none;
     margin: 0;
     padding: 0;
