@@ -149,3 +149,42 @@ section {
     outline-offset: 3px;
 }
 
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width: 48rem) {
+    .desktop-navigation {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
+}
+.mobile-menu summary {
+    cursor: pointer;
+    padding: var(--space-small, 0.5rem);
+    color: var(--color-primary, #004780);
+    font-weight: bold;
+}
+.mobile-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: var(--space-small, 0.5rem) 0;
+}
+.mobile-navigation li + li {
+    margin-top: var(--space-small, 0.5rem);
+}
+.mobile-navigation a {
+    display: block;
+    padding: var(--space-small 0.5rem);
+    color: var(--color-primary, #004780);
+}
+.mobile-navigation a:hover {
+    text-decoration: underline;
+}
+.mobile-menu summary:focus-visible,
+.mobile-navigation a:focus-visible {
+    outline: 3px solid var(--color-primary, #004780);
+    outline-offset: 3px
+}
